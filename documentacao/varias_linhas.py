@@ -1,0 +1,24 @@
+"""Descrição rapida e simples
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit
+amet faucibus erat. Maecenas eu arcu lectus. Morbi et nunc leo.
+Integer sodales elementum dui vitae condimentum. Integer enim 
+orci, cursus sed magna eu, semper lobortis arcu. Nullam 
+sollicitudin erat eget risus posuere dictum. In pulvinar 
+tincidunt neque, quis vestibulum orci imperdiet et.
+
+
+Etiam risus elit, aliquet vitae nisl eu, venenatis feugiat nunc. 
+Maecenas tempus risus urna, vitae ullamcorper lacus tincidunt ac. 
+Pellentesque habitant morbi tristique senectus et netus et 
+malesuada fames ac turpis egestas. Donec et aliquet dui. Etiam vel 
+tincidunt est. Nulla sed fringilla purus. Integer sit amet rutrum 
+dolor, sed aliquam nulla. Quisque et metus massa. Vestibulum ac 
+justo lacus. Suspendisse fringilla ac mauris vitae pulvinar. 
+Suspendisse volutpat at risus at iaculis. Maecenas ac dictum magna.
+"""
+
+variavel = 'valor'
+
+def funcao():
+    return 1
