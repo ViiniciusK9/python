@@ -1,4 +1,26 @@
 from calculo_ipv4 import CalculoIpv4
 
 
-c = CalculoIpv4('192.168.1.1')
+""" Exemplos de Uso """
+
+# Com prefixo
+calc_ipv4_1 = CalculoIpv4(ip='192.168.0.128', prefixo=30)
+
+print(f'IP: {calc_ipv4_1.ip}')
+print(f'Máscara: {calc_ipv4_1.mascara}')
+print(f'Rede: {calc_ipv4_1.rede}')
+print(f'Broadcast: {calc_ipv4_1.broadcast}')
+print(f'Prefixo: {calc_ipv4_1.prefixo}')
+print(f'Número de IPs da rede (Utilizavel): {calc_ipv4_1.quantidade_ips}')
+
+print('#' * 80)
+
+# Com máscara
+calc_ipv4_2 = CalculoIpv4(ip='192.168.0.128', mascara='255.255.255.192')
+
+print(f'IP: {calc_ipv4_2.ip}')
+print(f'Máscara: {calc_ipv4_2.mascara}')
+print(f'Rede: {calc_ipv4_2.rede}')
+print(f'Broadcast: {calc_ipv4_2.broadcast}')
+print(f'Prefixo: {calc_ipv4_2.prefixo}')
+print(f'Número de IPs da rede (Utilizavel): {calc_ipv4_2.quantidade_ips}')
